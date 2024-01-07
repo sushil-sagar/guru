@@ -1,0 +1,19 @@
+.customer-values-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .icons-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .icon {
+    flex: 0 1 30%;
+    padding: 20px;
+  }
+  

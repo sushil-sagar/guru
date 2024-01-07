@@ -1,0 +1,67 @@
+/* AboutUs.css */
+
+/* Container for the entire About Us section */
+.about-us-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #D9d9d9;
+    /* Add more styles as needed */
+  }
+  
+  /* Styling for the top image */
+  .top-image img {
+    width: 100%;
+    height: 40vh; /* Set the height as needed */
+    object-fit: cover;
+    /* Add more styles if required */
+  }
+  
+  /* Row containing content */
+  .content-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* Add more styles as needed */
+  }
+  
+  /* Styling for the side image */
+.side-image img {
+    width: 300px; /* Increase the width as needed */
+    height: auto;
+    margin-left: 70px;
+    /* Add more styles if required */
+  }
+  .side-image img1 {
+    width: 300px; /* Increase the width as needed */
+    height: auto;
+    margin-left: 70px;
+    /* Add more styles if required */
+  }
+  
+  /* Styling for the vision text */
+  .vision-text {
+    max-width: 50%;
+    padding: 0 20px;
+    /* Add more styles as needed */
+  }
+  
+  /* Title for vision */
+   .vision-text1 {
+    max-width: 50%;
+    padding: 0 20px;
+    /* Add more styles as needed */
+  }
+  .vision-title {
+    font-size: 24px;
+    font-weight: bold;
+    /* Add more styles if required */
+  }
+  
+  /* Styling for the paragraph */
+  .vision-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    /* Add more styles if required */
+  }
+  

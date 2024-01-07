@@ -1,0 +1,158 @@
+/* pricingpage.module.css */
+
+/* Container styles */
+.pricingContainer {
+    margin: 20px;
+    padding: 20px;
+    background-color: #d9d9d9;
+  }
+  
+  /* Horizontal line styles */
+  .horizontalLine {
+    border: 2px solid black;
+  }
+  
+  /* Heading styles */
+  .pricingHeading {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Description row styles */
+  .descriptionRow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Description item styles */
+  .descriptionItem {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Button styles */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover styles */
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Icon styles */
+  .icon {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+/* pricingpage.module.css */
+
+/* ... (previous styles) */
+
+/* Button 1 animation */
+@keyframes fadeInUp1 {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .description1 {
+    animation: fadeInUp1 1s ease-in-out;
+  }
+  
+  /* Button 2 animation */
+  @keyframes rotateIcon2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .button2 {
+    animation: rotateIcon2 2s linear infinite;
+  }
+  
+  /* Button 3 animation */
+  @keyframes scaleIcon3 {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .button3 {
+    animation: scaleIcon3 1.5s ease-in-out infinite;
+  }
+  .descriptionItem {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Define hover effect */
+  .descriptionItem:hover {
+    transform: scale(1.1); /* Scale the item on hover */
+  }    
+
+  /* Flexbox container to center align */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .descriptionRow {
+      display: flex;
+      flex-direction: column;
+    }
+    .descriptionRow {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .descriptionItem {
+      width: 80%; /* Adjust the width as needed for smaller screens */
+      margin-bottom: 20px; /* Add spacing between items */
+      text-align: center; /* Center align the items */
+    }
+  
+    .button1,
+    .button2,
+    .button3 {
+      width: 100%; /* Make buttons full width */
+      margin-bottom: 10px; /* Add some space between buttons and descriptions */
+    }
+    
+    .description1,
+    .description2,
+    .description3 {
+      /* Adjust description styles for smaller screens */
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    /* Adjust any other styles for smaller devices if needed */
+  }

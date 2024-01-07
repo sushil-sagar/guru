@@ -1,0 +1,99 @@
+/* ProductDetail.css */
+
+/* Overall Product Detail Container */
+.product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Carousel Container - Left Side */
+.carousel-container {
+  width: 50%;
+  max-width: 400px; /* Adjust carousel width */
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+/* Product Information Section - Right Side */
+.product-info {
+  width: 50%;
+  max-width: 600px; /* Adjust to your layout */
+  text-align: left; /* Adjust text alignment as needed */
+
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #333;
+    line-height: 1.5;
+  }
+
+  .product-variations {
+    margin-top: 20px;
+
+    h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      button {
+        padding: 8px 15px;
+        border: none;
+        cursor: pointer;
+        background-color: #f0f0f0;
+        color: #333;
+        font-size: 14px;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #ddd;
+        }
+
+        &.selected {
+          background-color: #007bff;
+          color: white;
+
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+}
+/* ProductDetail.css */
+
+/* ... (other styles) ... */
+
+.product-info button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px; /* Adjust spacing as needed */
+  transition: background-color 0.3s ease;
+}
+
+.product-info button:hover {
+  background-color: #0056b3;
+}

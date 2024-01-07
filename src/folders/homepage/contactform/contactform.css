@@ -1,0 +1,52 @@
+/* contactform.css */
+
+.custom-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #D9D9D9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='file'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button[type='submit'] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Style the file input */
+input[type='file'] {
+  cursor: pointer;
+  /* Adjust appearance as needed */
+}

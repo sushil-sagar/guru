@@ -1,0 +1,46 @@
+/* Products.css */
+
+/* Container for the entire products page */
+.products-container {
+    padding: 20px;
+  }
+  
+  /* Top image */
+  .top-image img {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Cards section */
+  .cards-section {
+    margin-top: 20px;
+  }
+  
+  /* Card styles */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .card i {
+    font-size: 48px;
+    color: #333;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  

@@ -1,0 +1,55 @@
+/* Your CSS file */
+
+/* For larger devices */
+footer .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  footer .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  footer .align-items-center {
+    align-items: center;
+  }
+  
+  footer .display-flex {
+    display: flex;
+  }
+  
+  footer .logo-container {
+    flex: 1;
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    footer .justify-content-between {
+      flex-direction: column; /* Change the direction to column */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    footer .logo-container {
+      margin-bottom: 20px; /* Add some space between logo and social icons */
+    }
+  
+    footer .display-flex:last-child {
+      margin-top: 20px; /* Add space between logo and social icons */
+    }
+  
+    footer .display-flex > * {
+      margin-right: 0 !important; /* Remove right margin for the social icons */
+    }
+    footer .align-items-center {
+        flex-direction: column; /* Change the direction to column */
+        align-items: flex-start; /* Align items to the start */
+      }
+    
+      footer .align-items-center > * {
+        margin-bottom: 10px; /* Add space between the elements */
+      }
+    
+      footer .align-items-center > .d-flex {
+        align-items: flex-start; /* Align items to the start */
+      }
+  }
+  
